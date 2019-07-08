@@ -21,7 +21,6 @@ for i = 1 : N
     % infact only the decision variables are passed to the function along
     % with information about the number of objective functions which are
     % processed and returns the value for the objective functions. These
-    % values are now stored at the end of the chromosome itself.
-    f(i,6) = Pcond + ((f(i,1)-Pcond)/2)*rand(1);
+    % values are now stored at the end of the chromosome itself
     f(i,V + 1: K) = evaluate_objective(fluid, f(i,:), M, V);
 end
