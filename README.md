@@ -9,7 +9,7 @@ Random values of decision variables are initialised in initialise_variable.m whi
 of 5 decision variables from the file objective_description_function.m
 
 NSGA generates random decision variables for every member of population,
-and keeps on saving the most elite member in every generation.
+and keeps on saving the most elite members for every iteration/generation.
 
 At the end we have a pareto frontier of all the elite members and we select a compromised solution among all the points
 according to normalised distance method.
