@@ -1,7 +1,7 @@
 # NSGA2
 Optimization of working parameters for Organic Rankine Cycle using NSGA-2
 
-Run nsga_2.m in the command window with input (population size, generations) as >> nsga_2(X,Y).
+Run nsga_2.m in the Matlab command window with input (population size, generations) as >> nsga_2(X,Y).
 
 Objective functions are defined in evaluate_objective.m
 
