@@ -1,4 +1,4 @@
-function f = evaluate_objective(fluid, x, M, V)
+function f = evaluate_objective(fluid, x)
 import py.CoolProp.CoolProp.PropsSI;
 f = [];
 
