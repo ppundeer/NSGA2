@@ -38,8 +38,5 @@ max_range_of_decesion_variable(4) = T_hs1-50;
 % T_cs2
 min_range_of_decesion_variable(5) = T_cs1+10;
 max_range_of_decesion_variable(5) = T_cs1+15;
-% P_bleed
-min_range_of_decesion_variable(6) = Pmin;
-max_range_of_decesion_variable(6) = (Pmin+Pmax)/2;
 
 end    
